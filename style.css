@@ -1,0 +1,235 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 16px;
+    padding: 20px;
+    color: #000000;
+}
+.menu a:hover {
+    background-color: #124C5F;
+    padding: 20px;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+
+.home {
+    display: flex;
+    background-color: #FFF2B3;
+}
+
+.home h1 {
+    font-size: 48px;
+}
+
+.home p {
+    font-size: 24px;
+}
+
+.home button {
+    font-size: 16px;
+}
+
+.home button:hover {
+    cursor: pointer;
+}
+
+.home .home-descricao {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.home .home-descricao p {
+    margin-top: 30px;
+}
+
+.home .home-descricao a {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.home .home-descricao button {
+    padding: 20px;
+    background-color: #124C5F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.services-products {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F6FFFD;
+}
+
+.services-products a {
+    text-decoration: none;
+}
+
+.services-products a:visited {
+    color: #000000;
+}
+
+.services-products h2 {
+    font-size: 32px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+    text-decoration: underline;
+    text-decoration-color: #3A8DA8;
+    text-underline-offset: 3px;
+}
+
+.services-products ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-products ul img {
+    height: 100px;
+}
+
+.services-products ul li {
+    width: 200px;
+    height: 225px;
+    border-radius: 30px;
+    list-style: none;
+    text-align: center;
+    padding-top: 50px;    
+}
+
+.services-products ul li:nth-child(2n+1) {
+    border: 6px solid #98F2E1;
+}
+
+.services-products ul li:nth-child(2n) {
+    border: 6px solid #FFF2B3;
+}
+
+.services-products ul li h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.products {
+    background-color: #FFFFFF;/*F6FFFD*/
+}
+
+.products ul li {
+    width: 300px;
+    height: 450px;
+    border: none !important;   
+}
+
+.products ul li img {
+    width: 250px;
+    height: 250px;   
+}
+
+.products ul li h3 {
+    text-align: left;
+}
+.products ul li p {
+    font-size: 16px;
+    color: #979697;
+    text-align: left;
+}
+
+.products ul li button {
+    width: 180px;
+    height: 50px;
+    color: #124C5F;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #124C5F;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.contact {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F6FFFD;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin: 30px;
+    margin-left: 0px;
+    margin-bottom: 60px;
+    text-decoration: underline;
+    text-decoration-color: #3A8DA8;
+    text-underline-offset: 3px;
+}
+
+.contact label {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.contact input {
+    height: 60px;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    border: 1px solid #98F2E1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contact textarea {
+    padding-top: 20px;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #124C5F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #FFF2B3;
+    height: 90px;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 40px;
+}
